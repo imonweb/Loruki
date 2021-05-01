@@ -2,6 +2,8 @@
 @import 'utilities.css';
 @import 'nav.css';
 @import 'showcase.css';
+@import 'mobile.css';
+@import 'features.css';
 
 :root {
   --primary-color: #047aed;
@@ -88,13 +90,14 @@ img {
 
 /*   Languages */
 
-.languages .flex {
+.flex {
   flex-wrap: wrap;
 }
 
 .languages .card{
   text-align: center;
   margin: 18px 10px 40px;
+  transition: transform 0.2s ease-in;
 }
 
 .languages .card h4 {
